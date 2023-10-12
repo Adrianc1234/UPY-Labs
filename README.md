@@ -49,3 +49,6 @@ We build free and premium themes with technologies such as Bootstrap, React, Tai
 ## License
 
 This project is open source under the MIT license.
+
+## Update
+Almost everything is the same, the only difference is the HTML, and I added an image to the 'images' folder (to make the low-poly hand image work, it needs to be inside the 'images' folder, or you can adjust the path).
