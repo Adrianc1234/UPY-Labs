@@ -35,6 +35,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="./output.css" rel="stylesheet">
+    <link href="./utils.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
@@ -113,21 +114,22 @@
             justify-content: center; /* To center content horizontally */
             align-items: center; /* To center content vertically */
         }
-        </style>
-            <!-- Presentation Card -->
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Adrian Carmona</h3>
-                <div class="divthing">
-                    <img src="./profiles/carmona.jfif" alt="" class="circular" width="190" height="190">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+        </style>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Adrian Carmona
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -144,20 +146,25 @@
                         <span style="font-family: 'Product Sans', sans-serif;">MLOps enthusiast, Data Engineer and Official Leader of UPYLabs</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Krishna Sandoval</h3>
-                <div class="divthing">
-                    <img src="./profiles/krishna.jfif" alt="" class="circular" width="150" height="150">
-                </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Krishna Sandoval
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -170,25 +177,29 @@
                     <li class="flex items-center space-x-3">
                         <!-- Description -->
                         <div>
-                        <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">I like the ML and the data science</span>
+                        <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Interested on Machine Learning and data science</span>
                     </div>
                     </li>
-            </div>
+                </ul>
             
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Braulio Perez</h3>
-                <div class="divthing">
-                <img src="./profiles/braulio.jfif" alt="" class="circular" width="150" height="150">
                 </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+            </div>
+
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Braulio Perez
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
-                    
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Major:</span> <span style="font-family: 'Product Sans', sans-serif;"> Data Engineering</span>
@@ -203,20 +214,25 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Passionate for my carreer, analyst thinking</span>
                         </div>
                     </li>
-            </div>
+                </ul>
             
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Luis Michel</h3>
-                <div class="divthing">
-                    <img src="./profiles/lmichel.jpg" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+                </div>
+            </div>
+
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Luis Michel
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         
@@ -233,20 +249,25 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Infrastructure and Cloud Passionate, proactive student</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">David Hernandez</h3>
-                <div class="divthing">
-                    <img src="./profiles/DavidP.jfif" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                David Hernandez
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -262,20 +283,25 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Data Scientist enthusiast</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
-    
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Juan Antonio</h3>
-                <div class="divthing">
-                    <img src="./profiles/JuanANn.jfif" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Juan Antonio
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -291,20 +317,25 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Collaborative, Passionate Data Engineer</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Oscar Martinez</h3>
-                <div class="divthing">
-                    <img src="./profiles/Oscar.jfif" alt="" class="circular" width="150" height="140">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Oscar Martinez
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -320,20 +351,25 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Perfect for teamwork and no problems under pressure</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Gerardo Widman</h3>
-                <div class="divthing">
-                    <img src="./profiles/Gerardow.jfif" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Gerardo Widman
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -349,20 +385,25 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Data engineering enthusiast</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Isaias Lopez</h3>
-                <div class="divthing">
-                    <img src="./profiles/Isaias.jfif" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Isaias Lopez
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -378,20 +419,25 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Data Scientist enthusiast</span>
                         </div>
                     </li>
-            </div>
+                </ul>
             
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Emanuel Carmona</h3>
-                <div class="divthing">
-                    <img src="./prefiles/DavidP.jfif" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+                </div>
+            </div>
+
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Emmanuel Carmona
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                    <br>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -407,20 +453,24 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">DevOps enthusiast</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Jose Adrian</h3>
-                <div class="divthing">
-                    <img src="./profiles/Joseadr.jfif" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Jose Adrian
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -436,20 +486,24 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Teamwork, pleasure to learn, fast work, collaborative</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Carlos Helguera</h3>
-                <div class="divthing">
-                    <img src="./profiles/Carlosedu.jfif" alt="" class="circular" width="150" height="150">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Calos Helguera
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -465,20 +519,24 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Ability to collaborate as part of a team, fast learner</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
 
-            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Hageo Juda</h3>
-                <div class="divthing">
-                    <img src="./profiles/Haegi.jfif" alt="" class="circular" width="180" height="180">
-                    </div>
-                <html lang="en">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                </head>
-                <br>
+
+            <div class=" flex card">
+                <div class="card__img"></div>
+                <div class="card__descr-wrapper">
+                
+                <p class="card__title" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">
+                Hageo Juda
+                </p>
+                <p>
+                    <center><img src="./images/Profiles/adrian_carmona.jpg" alt="" class="circular" width="80" height="80"></center>
+                </p>
+                
+                <!-- lista de informacion de datos -->
                 <ul role="list" class="mb-8 space-y-4 text-left">
                     <li class="flex items-center space-x-3">
                         <!-- Major -->
@@ -494,7 +552,14 @@
                         <span class="font-semibold" style="color:  #ac5dca ; font-family: 'Product Sans', sans-serif;">Description: </span><span style="font-family: 'Product Sans', sans-serif;">Proactive, proeficient and a team player</span>
                         </div>
                     </li>
+                </ul>
+            
+                </div>
             </div>
+
+            <!-- Presentation Card -->
+            
+            
 
             <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                 <h3 class="mb-4 text-2xl font-semibold" style="color:  #8C52FF; font-family: 'Product Sans', sans-serif;">Esther Apaza</h3>
